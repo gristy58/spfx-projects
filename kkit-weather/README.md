@@ -10,7 +10,7 @@ The Webpart has various displays modes:
 ![alt text][largeweather]
 
 #### Compact Weather
-![alt text][largeweather]
+![alt text][compactweather]
 
 The WebPart has the following configuration available:
 
