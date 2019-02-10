@@ -31,7 +31,7 @@ The WebPart has the following configuration available:
 git clone the repo
 npm i
 npm i -g gulp
-gulp
+gulp serve
 ```
 
 [largeweather]: https://static.wixstatic.com/media/b5408a_18f4112c98ec426f911025a94348cd99~mv2.png "Large Weather"
