@@ -1,0 +1,8 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "version": "1.4.0",
+    "libraryName": "kkit-weather",
+    "libraryId": "f46fce48-82f8-45dc-8fb8-bb943d8797f4",
+    "environment": "spo"
+  }
+}

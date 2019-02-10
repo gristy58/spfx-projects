@@ -1,0 +1,13 @@
+{
+  "$schema": "https://dev.office.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "kkit-htmlcssjswebpart-client-side-solution",
+    "id": "0f071c49-04e1-410e-b43e-cdae18b1b6e8",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true
+  },
+  "paths": {
+    "zippedPackage": "solution/kkit-htmlcssjswebpart.sppkg"
+  }
+}

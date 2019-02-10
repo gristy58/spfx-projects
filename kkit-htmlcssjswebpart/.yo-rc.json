@@ -1,0 +1,8 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "version": "1.4.0",
+    "libraryName": "kkit-htmlcssjswebpart",
+    "libraryId": "0f071c49-04e1-410e-b43e-cdae18b1b6e8",
+    "environment": "spo"
+  }
+}

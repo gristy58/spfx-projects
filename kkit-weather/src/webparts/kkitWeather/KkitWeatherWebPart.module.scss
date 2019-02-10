@@ -1,0 +1,86 @@
+@import '~@microsoft/sp-office-ui-fabric-core/dist/sass/SPFabricCore.scss';
+
+  
+  .forecastimg
+{
+width:50px;
+vertical-align:middle;
+}
+
+.forecasttable
+{
+font-size:16px;
+display: block;
+width:100%;
+text-align:center;
+}
+
+.temp
+{
+float:left;
+font-size:64px;
+line-height:1.45em;
+width:50%;
+text-align:center;
+vertical-align:middle;
+margin:0px;
+
+}
+.icon
+{
+float:right;
+width:50%;
+text-align:center;
+margin:0px;
+
+}
+.sup
+{
+opacity:0.7;
+}
+
+.iconimg
+{
+width:100px;
+vertical-align:middle;
+
+}
+
+.minmax
+{
+font-size:16px;
+display: block;
+width:100%;
+float:left;
+text-align:center;
+}
+
+.today
+{
+    display: block;
+	font-size:64px;
+font-family:sans-serif;
+	margin:0px;
+	width:100%;
+}
+
+.h2
+{
+	
+    font-size: 1.5em;
+    font-weight: bold;
+	font-weight:700;
+	margin:0px;
+	text-align:center;
+}
+
+.showWeather
+{
+		width:330px;
+	padding:10px;
+	font-family:sans-serif;
+	min-height: 100px;
+overflow: hidden;
+margin:0px;
+
+}

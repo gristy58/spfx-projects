@@ -1,0 +1,25 @@
+{
+  "$schema": "https://dev.office.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "kkit-weather-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/kkitWeather/KkitWeatherWebPart.js",
+          "manifest": "./src/webparts/kkitWeather/KkitWeatherWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {
+    "jquery": {
+      "path": "https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js",
+      "globalName": "jQuery"
+}
+  },
+  "localizedResources": {
+    "KkitWeatherWebPartStrings": "lib/webparts/kkitWeather/loc/{locale}.js",
+    "PropertyControlStrings": "node_modules/@pnp/spfx-property-controls/lib/loc/{locale}.js"
+  }
+
+}

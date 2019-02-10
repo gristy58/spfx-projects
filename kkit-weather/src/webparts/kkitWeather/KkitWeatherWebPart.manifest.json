@@ -1,0 +1,36 @@
+{
+  "$schema": "https://dev.office.com/json-schemas/spfx/client-side-web-part-manifest.schema.json",
+  "id": "cb581d78-92ad-4e1a-bd87-a48c925c3194",
+  "alias": "KkitWeatherWebPart",
+  "componentType": "WebPart",
+
+  // The "*" signifies that the version should be taken from the package.json
+  "version": "*",
+  "manifestVersion": 2,
+
+  // If true, the component can only be installed on sites where Custom Script is allowed.
+  // Components that allow authors to embed arbitrary script code should set this to true.
+  // https://support.office.com/en-us/article/Turn-scripting-capabilities-on-or-off-1f2c515f-5d7e-448a-9fd7-835da935584f
+  "requiresCustomScript": false,
+
+  "preconfiguredEntries": [{
+    "groupId": "5c03119e-3074-46fd-976b-c60198311f70", // Other
+    "group": { "default": "KKiT" },
+    "title": { "default": "KKiT Weather WebPart" },
+    "description": { "default": "Weather WebPart using apixu.com" },
+    "officeFabricIconFontName": "Page",
+    "properties": {
+      "description": "kkit-weather",
+      "backgroundcolor":"#1abc9c",
+      "textcolor":"#ffffff",
+      "TempUnits": true,
+      "days":  5,
+      "showForecast": true,
+      "showMinMax": true,
+      "showRegion": true,
+      "cachelength": 2
+    }
+    
+  }]
+}
+

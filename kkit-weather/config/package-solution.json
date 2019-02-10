@@ -1,0 +1,13 @@
+{
+  "$schema": "https://dev.office.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "kkit-weather-client-side-solution",
+    "id": "f46fce48-82f8-45dc-8fb8-bb943d8797f4",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true
+  },
+  "paths": {
+    "zippedPackage": "solution/kkit-weather.sppkg"
+  }
+}
